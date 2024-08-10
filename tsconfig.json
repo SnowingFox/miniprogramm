@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "dist",
+    "sourceMap": false,
+    "target": "es2016",
+    "useDefineForClassFields": false,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "allowJs": false,
+    "strict": true,
+    "noUnusedLocals": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "removeComments": false,
+    "noImplicitAny": false,
+    "jsx": "preserve",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "types": [
+      "node"
+    ],
+    "rootDir": ".",
+    "paths": {
+      "@evoker/*": [
+        "packages/*/src"
+      ],
+      "evoker": [
+        "packages/evoker/src"
+      ]
+    },
+  },
+  "include": [
+    "packages/evoker/global.d.ts",
+    "packages/bridge/global.d.ts",
+    "packages/webview/global.d.ts",
+    "packages/*/src",
+    "packages/*/__tests__",
+  ],
+}

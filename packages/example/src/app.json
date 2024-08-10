@@ -1,0 +1,412 @@
+{
+  "appId": "com.evokerdev.example",
+  "version": "1.0.0",
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Evoker",
+    "navigationStyle": "default",
+    "backgroundColor": "#f3f4f6"
+  },
+  "tabBar": {
+    "color": "#86868b",
+    "selectedColor": "#1989fa",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "path": "pages/Component/Index",
+        "text": "组件",
+        "iconPath": "assets/icon_component.png",
+        "selectedIconPath": "assets/icon_component_HL.png"
+      },
+      {
+        "path": "pages/API/Index",
+        "text": "接口",
+        "iconPath": "assets/icon_API.png",
+        "selectedIconPath": "assets/icon_API_HL.png"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "path": "pages/Component/Index",
+      "style": {
+        "navigationBarTitleText": "小程序内置组件展示"
+      }
+    },
+    {
+      "path": "pages/Component/View",
+      "style": {
+        "navigationBarTitleText": "view",
+        "navigationBarBackgroundColor": "#1989fa",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/Component/ScrollView",
+      "style": {
+        "navigationBarTitleText": "scroll-view"
+      }
+    },
+    {
+      "path": "pages/Component/Swiper",
+      "style": {
+        "navigationBarTitleText": "swiper"
+      }
+    },
+    {
+      "path": "pages/Component/Button",
+      "style": {
+        "navigationBarTitleText": "button"
+      }
+    },
+    {
+      "path": "pages/Component/Image",
+      "style": {
+        "navigationBarTitleText": "image"
+      }
+    },
+    {
+      "path": "pages/Component/Video",
+      "style": {
+        "navigationBarTitleText": "video"
+      }
+    },
+    {
+      "path": "pages/Component/Text",
+      "style": {
+        "navigationBarTitleText": "text"
+      }
+    },
+    {
+      "path": "pages/Component/Progress",
+      "style": {
+        "navigationBarTitleText": "progress"
+      }
+    },
+    {
+      "path": "pages/Component/Switch",
+      "style": {
+        "navigationBarTitleText": "switch"
+      }
+    },
+    {
+      "path": "pages/Component/Checkbox",
+      "style": {
+        "navigationBarTitleText": "checkbox"
+      }
+    },
+    {
+      "path": "pages/Component/Input",
+      "style": {
+        "navigationBarTitleText": "input"
+      }
+    },
+    {
+      "path": "pages/Component/Navigator",
+      "style": {
+        "navigationBarTitleText": "navigator"
+      }
+    },
+    {
+      "path": "pages/Component/Icon",
+      "style": {
+        "navigationBarTitleText": "icon"
+      }
+    },
+    {
+      "path": "pages/Component/Picker",
+      "style": {
+        "navigationBarTitleText": "picker"
+      }
+    },
+    {
+      "path": "pages/Component/Radio",
+      "style": {
+        "navigationBarTitleText": "radio"
+      }
+    },
+    {
+      "path": "pages/Component/Camera",
+      "style": {
+        "navigationBarTitleText": "camera"
+      }
+    },
+    {
+      "path": "pages/Component/Movable",
+      "style": {
+        "navigationBarTitleText": "movable-view"
+      }
+    },
+    {
+      "path": "pages/Component/Textarea",
+      "style": {
+        "navigationBarTitleText": "textarea"
+      }
+    },
+    {
+      "path": "pages/Component/Slider",
+      "style": {
+        "navigationBarTitleText": "slider"
+      }
+    },
+    {
+      "path": "pages/Component/Map",
+      "style": {
+        "navigationBarTitleText": "map"
+      }
+    },
+    {
+      "path": "pages/Component/PickerView",
+      "style": {
+        "navigationBarTitleText": "picker-view"
+      }
+    },
+    {
+      "path": "pages/Component/Form",
+      "style": {
+        "navigationBarTitleText": "form"
+      }
+    },
+    {
+      "path": "pages/Component/Label",
+      "style": {
+        "navigationBarTitleText": "label"
+      }
+    },
+    {
+      "path": "pages/Component/Canvas",
+      "style": {
+        "navigationBarTitleText": "Canvas"
+      }
+    },
+    {
+      "path": "pages/API/Index",
+      "style": {
+        "navigationBarTitleText": "小程序接口能力展示"
+      }
+    },
+    {
+      "path": "pages/API/SetTitle",
+      "style": {
+        "navigationBarTitleText": "设置页面标题"
+      }
+    },
+    {
+      "path": "pages/API/Modal",
+      "style": {
+        "navigationBarTitleText": "模态弹窗"
+      }
+    },
+    {
+      "path": "pages/API/NavigationBarLoading",
+      "style": {
+        "navigationBarTitleText": "标题栏加载动画"
+      }
+    },
+    {
+      "path": "pages/API/PullDownRefresh",
+      "style": {
+        "navigationBarTitleText": "下拉刷新"
+      }
+    },
+    {
+      "path": "pages/API/ActionSheet",
+      "style": {
+        "navigationBarTitleText": "操作菜单"
+      }
+    },
+    {
+      "path": "pages/API/HTML",
+      "style": {
+        "navigationBarTitleText": "获取 HTML 节点信息"
+      }
+    },
+    {
+      "path": "pages/API/Toast",
+      "style": {
+        "navigationBarTitleText": "消息提示框"
+      }
+    },
+    {
+      "path": "pages/API/VModel",
+      "style": {
+        "navigationBarTitleText": "v-model"
+      }
+    },
+    {
+      "path": "pages/API/ScanCode",
+      "style": {
+        "navigationBarTitleText": "扫码"
+      }
+    },
+    {
+      "path": "pages/API/Audio",
+      "style": {
+        "navigationBarTitleText": "音频"
+      }
+    },
+    {
+      "path": "pages/API/Request",
+      "style": {
+        "navigationBarTitleText": "Request"
+      }
+    },
+    {
+      "path": "pages/API/DownloadFile",
+      "style": {
+        "navigationBarTitleText": "DownloadFile"
+      }
+    },
+    {
+      "path": "pages/API/UploadFile",
+      "style": {
+        "navigationBarTitleText": "UploadFile"
+      }
+    },
+    {
+      "path": "pages/API/ScreenBrightness",
+      "style": {
+        "navigationBarTitleText": "ScreenBrightness"
+      }
+    },
+    {
+      "path": "pages/API/Clipboard",
+      "style": {
+        "navigationBarTitleText": "Clipboard"
+      }
+    },
+    {
+      "path": "pages/API/MakePhoneCall",
+      "style": {
+        "navigationBarTitleText": "MakePhoneCall"
+      }
+    },
+    {
+      "path": "pages/API/CaptureScreen",
+      "style": {
+        "navigationBarTitleText": "CaptureScreen"
+      }
+    },
+    {
+      "path": "pages/API/GetNetworkType",
+      "style": {
+        "navigationBarTitleText": "GetNetworkType"
+      }
+    },
+    {
+      "path": "pages/API/OnNetworkStatusChange",
+      "style": {
+        "navigationBarTitleText": "OnNetworkStatusChange"
+      }
+    },
+    {
+      "path": "pages/API/GetSystemInfo",
+      "style": {
+        "navigationBarTitleText": "GetSystemInfo"
+      }
+    },
+    {
+      "path": "pages/API/Vibrate",
+      "style": {
+        "navigationBarTitleText": "Vibrate"
+      }
+    },
+    {
+      "path": "pages/API/Animation",
+      "style": {
+        "navigationBarTitleText": "Animation"
+      }
+    },
+    {
+      "path": "pages/API/PageScroll",
+      "style": {
+        "navigationBarTitleText": "页面滚动"
+      }
+    },
+    {
+      "path": "pages/API/Image",
+      "style": {
+        "navigationBarTitleText": "图片"
+      }
+    },
+    {
+      "path": "pages/API/Video",
+      "style": {
+        "navigationBarTitleText": "视频"
+      }
+    },
+    {
+      "path": "pages/API/LoadFontFace",
+      "style": {
+        "navigationBarTitleText": "动态加载字体"
+      }
+    },
+    {
+      "path": "pages/API/GetLocation",
+      "style": {
+        "navigationBarTitleText": "获取当前位置"
+      }
+    },
+    {
+      "path": "pages/API/Storage",
+      "style": {
+        "navigationBarTitleText": "本地存储"
+      }
+    },
+    {
+      "path": "pages/API/Voice",
+      "style": {
+        "navigationBarTitleText": "录音"
+      }
+    },
+    {
+      "path": "pages/API/Setting",
+      "style": {
+        "navigationBarTitleText": "设置"
+      }
+    },
+    {
+      "path": "pages/API/GetUserInfo",
+      "style": {
+        "navigationBarTitleText": "获取用户信息"
+      }
+    },
+    {
+      "path": "pages/API/Login",
+      "style": {
+        "navigationBarTitleText": "登录"
+      }
+    },
+    {
+      "path": "pages/API/Navigator",
+      "style": {
+        "navigationBarTitleText": "页面跳转"
+      }
+    },
+    {
+      "path": "pages/API/IntersectionObserver",
+      "style": {
+        "navigationBarTitleText": "节点布局相交状态"
+      }
+    },
+    {
+      "path": "pages/API/GetBatteryInfo",
+      "style": {
+        "navigationBarTitleText": "获取手机设备电量"
+      }
+    },
+    {
+      "path": "pages/API/WebSocket",
+      "style": {
+        "navigationBarTitleText": "WebSocket"
+      }
+    },
+    {
+      "path": "pages/API/File",
+      "style": {
+        "navigationBarTitleText": "File"
+      }
+    }
+  ]
+}

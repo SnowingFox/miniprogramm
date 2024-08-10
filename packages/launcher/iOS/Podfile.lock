@@ -1,0 +1,129 @@
+PODS:
+  - Alamofire (5.9.1)
+  - AMap3DMap (10.0.800):
+    - AMapFoundation (>= 1.8.0)
+  - AMapFoundation (1.8.2)
+  - AMapLocation (2.10.0):
+    - AMapFoundation (>= 1.8.0)
+  - AMapSearch (9.7.0):
+    - AMapFoundation (>= 1.8.0)
+  - CocoaAsyncSocket (7.6.5)
+  - CryptoSwift (1.4.3)
+  - Evoker (0.13.0):
+    - Evoker/Core (= 0.13.0)
+    - Evoker/Resources (= 0.13.0)
+  - Evoker/Core (0.13.0):
+    - Alamofire (~> 5.4)
+    - CryptoSwift (~> 1.4.1)
+    - JXPhotoBrowser (~> 3.0)
+    - KTVHTTPCache (~> 2.0.0)
+    - MJRefresh
+    - PureLayout
+    - SDWebImage (~> 5.0)
+    - SDWebImageWebPCoder
+    - SocketRocket
+    - SQLite.swift (~> 0.13.2)
+    - SwiftyRSA
+    - Zip (~> 2.1)
+    - ZLPhotoBrowser
+  - Evoker/Map (0.13.0):
+    - AMap3DMap
+    - AMapLocation
+    - AMapSearch
+    - Evoker/Core (= 0.13.0)
+    - PureLayout
+  - Evoker/Resources (0.13.0)
+  - JXPhotoBrowser (3.1.5)
+  - KTVCocoaHTTPServer (1.0.0):
+    - CocoaAsyncSocket
+  - KTVHTTPCache (2.0.1):
+    - KTVCocoaHTTPServer
+  - libwebp (1.3.2):
+    - libwebp/demux (= 1.3.2)
+    - libwebp/mux (= 1.3.2)
+    - libwebp/sharpyuv (= 1.3.2)
+    - libwebp/webp (= 1.3.2)
+  - libwebp/demux (1.3.2):
+    - libwebp/webp
+  - libwebp/mux (1.3.2):
+    - libwebp/demux
+  - libwebp/sharpyuv (1.3.2)
+  - libwebp/webp (1.3.2):
+    - libwebp/sharpyuv
+  - MJRefresh (3.7.6)
+  - PureLayout (3.1.9)
+  - SDWebImage (5.19.4):
+    - SDWebImage/Core (= 5.19.4)
+  - SDWebImage/Core (5.19.4)
+  - SDWebImageWebPCoder (0.14.6):
+    - libwebp (~> 1.0)
+    - SDWebImage/Core (~> 5.17)
+  - SocketRocket (0.7.0)
+  - SQLite.swift (0.13.3):
+    - SQLite.swift/standard (= 0.13.3)
+  - SQLite.swift/standard (0.13.3)
+  - SwiftyRSA (1.7.0):
+    - SwiftyRSA/ObjC (= 1.7.0)
+  - SwiftyRSA/ObjC (1.7.0)
+  - Zip (2.1.2)
+  - ZLPhotoBrowser (4.5.4):
+    - ZLPhotoBrowser/Core (= 4.5.4)
+  - ZLPhotoBrowser/Core (4.5.4)
+
+DEPENDENCIES:
+  - Evoker (from `../../..`)
+  - Evoker/Map (from `../../..`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AMap3DMap
+    - AMapFoundation
+    - AMapLocation
+    - AMapSearch
+    - CocoaAsyncSocket
+    - CryptoSwift
+    - JXPhotoBrowser
+    - KTVCocoaHTTPServer
+    - KTVHTTPCache
+    - libwebp
+    - MJRefresh
+    - PureLayout
+    - SDWebImage
+    - SDWebImageWebPCoder
+    - SocketRocket
+    - SQLite.swift
+    - SwiftyRSA
+    - Zip
+    - ZLPhotoBrowser
+
+EXTERNAL SOURCES:
+  Evoker:
+    :path: "../../.."
+
+SPEC CHECKSUMS:
+  Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
+  AMap3DMap: 6761e0381f517978312e4f795ce77b2b9f6781a6
+  AMapFoundation: 9885c48fc3a78fdfb84a0299a2293e56ea3c9fec
+  AMapLocation: 5248aec2455ebb5d104b367813c946430a2ee033
+  AMapSearch: 1f24a4acee521d993a8190348d27f5765841e32a
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  CryptoSwift: a0799ee936271bd2253a006f1e4523df21845000
+  Evoker: 8e023befe5eceace4b7f1b44cf16c7b2dc616158
+  JXPhotoBrowser: a6d745f5711bde79b02ba29165e2456ab5bde476
+  KTVCocoaHTTPServer: df8d7b861e603ff8037e9b2138aca2563a6b768d
+  KTVHTTPCache: 588c3eb16f6bd1e6fde1e230dabfb7bd4e490a4d
+  libwebp: 1786c9f4ff8a279e4dac1e8f385004d5fc253009
+  MJRefresh: 2fe7fb43a5167ceda20bb7e63f130c04fd1814a5
+  PureLayout: 5fb5e5429519627d60d079ccb1eaa7265ce7cf88
+  SDWebImage: 066c47b573f408f18caa467d71deace7c0f8280d
+  SDWebImageWebPCoder: e38c0a70396191361d60c092933e22c20d5b1380
+  SocketRocket: abac6f5de4d4d62d24e11868d7a2f427e0ef940d
+  SQLite.swift: 903bfa3bc9ab06345fdfbb578e34f47cfcf417da
+  SwiftyRSA: 8c6dd1ea7db1b8dc4fb517a202f88bb1354bc2c6
+  Zip: b3fef584b147b6e582b2256a9815c897d60ddc67
+  ZLPhotoBrowser: 68ab8554845ce05a41d49f293a0e30beb519101f
+
+PODFILE CHECKSUM: 7250020f0db3c4426167273836297c3d232ca021
+
+COCOAPODS: 1.15.2

@@ -1,0 +1,92 @@
+{
+  "EvokerAsyncAPI": {
+    "prefix": "ekapi",
+    "body": [
+      "interface $1Options {",
+      "  /** 接口调用成功的回调函数 */",
+      "  success?: $1SuccessCallback",
+      "  /** 接口调用失败的回调函数 */",
+      "  fail?: $1FailCallback",
+      "  /** 接口调用结束的回调函数（调用成功、失败都会执行）*/",
+      "  complete?: $1CompleteCallback",
+      "}",
+      "",
+      "type $1SuccessCallback = (res: GeneralCallbackResult) => void",
+      "",
+      "type $1FailCallback = (res: GeneralCallbackResult) => void",
+      "",
+      "type $1CompleteCallback = (res: GeneralCallbackResult) => void",
+      "",
+      "export function ${1/(^.)/${1:/downcase}/}<",
+      "  T extends $1Options = $1Options",
+      ">(options: T): AsyncReturn<T, $1Options> {",
+      "  return wrapperAsyncAPI(options => {",
+      "    const event = $0",
+      "    invoke<SuccessResult<T>>(event, options, result => {",
+      "      invokeCallback(event, options, result)",
+      "    })",
+      "  }, options)",
+      "}"
+    ]
+  },
+
+  "EvokerOptions": {
+    "prefix": "ekopts",
+    "body": [
+      "interface $1Options {",
+      "  /** 接口调用成功的回调函数 */",
+      "  success?: $1SuccessCallback",
+      "  /** 接口调用失败的回调函数 */",
+      "  fail?: $1FailCallback",
+      "  /** 接口调用结束的回调函数（调用成功、失败都会执行）*/",
+      "  complete?: $1CompleteCallback",
+      "}",
+      "",
+      "type $1SuccessCallback = (res: GeneralCallbackResult) => void",
+      "",
+      "type $1FailCallback = (res: GeneralCallbackResult) => void",
+      "",
+      "type $1CompleteCallback = (res: GeneralCallbackResult) => void",
+      ""
+    ]
+  },
+
+  "EvokerOn": {
+    "prefix": "ekon",
+    "body": [
+      "interface $1CallbackResult {",
+      "",
+      "}",
+      "",
+      "type $1Callback = (result: $1CallbackResult) => void",
+      "",
+      "export function ${1/(^.)/${1:/downcase}/}(callback: $1Callback) {",
+      "",
+      "}",
+      ""
+    ]
+  },
+
+  "EvokerERRString": {
+    "prefix": "ekerrstr",
+    "body": [
+      "if (!isString(options.$0)) {",
+      "  invokeFailure(",
+      "    event,",
+      "    options,",
+      "    ERR_INVALID_ARG_TYPE(\"options.$0\", \"string\", options.$0)",
+      "  )",
+      "  return",
+      " }",
+      "",
+      "  if (!options.$0) {",
+      "  invokeFailure(",
+      "    event,",
+      "    options,",
+      "    ERR_INVALID_ARG_VALUE(\"options.$0\", options.$0, ERR_CANNOT_EMPTY)",
+      "  )",
+      "  return",
+      "}"
+    ]
+  }
+}

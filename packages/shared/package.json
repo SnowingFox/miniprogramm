@@ -1,0 +1,25 @@
+{
+  "name": "@evoker/shared",
+  "version": "0.13.0",
+  "type": "module",
+  "description": "evoker shared",
+  "author": "yizhi996",
+  "homepage": "https://github.com/yizhi996/evoker/tree/main/packages/shared",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yizhi996/evoker.git"
+  },
+  "license": "MIT",
+  "main": "dist/shared.js",
+  "module": "dist/shared.js",
+  "types": "dist/shared.d.ts",
+  "buildOptions": {
+    "formats": [
+      "es"
+    ]
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "@vue/shared": "^3.2.39"
+  }
+}

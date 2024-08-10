@@ -1,0 +1,30 @@
+{
+  "name": "@evoker/bridge",
+  "version": "0.13.0",
+  "type": "module",
+  "description": "evoker js bridge",
+  "author": "yizhi996",
+  "homepage": "https://github.com/yizhi996/evoker/tree/main/packages/bridge",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yizhi996/evoker.git"
+  },
+  "license": "MIT",
+  "main": "dist/bridge.js",
+  "module": "dist/bridge.js",
+  "types": "dist/bridge.d.ts",
+  "buildOptions": {
+    "formats": [
+      "es"
+    ]
+  },
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@evoker/shared": "workspace:*",
+    "vue": "^3.2.39",
+    "@vue/shared": "^3.2.39"
+  }
+}
